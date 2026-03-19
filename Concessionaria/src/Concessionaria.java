@@ -1,11 +1,9 @@
+import java.util.ArrayList;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.concessionaria;
-
-import java.util.ArrayList;
-
 /**
  *
  * @author User
@@ -29,7 +27,7 @@ public class Concessionaria {
         }
 
         for (Carros c : carros) {
-            System.out.println("Codigo: " + c.codigo);
+            System.out.println("Codigo" + c.codigo);
             System.out.println("Marca: " + c.marca);
             System.out.println("Modelo: " + c.modelo);
             System.out.println("Ano: " + c.ano);

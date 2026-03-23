@@ -1,0 +1,17 @@
+# Build files
+build.xml
+nbproject/
+dist/
+build/
+
+# IDE
+.classpath
+.project
+.settings/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
